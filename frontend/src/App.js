@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import axios from "axios";
-import Card from "./components/card";
-import { calculateHealthScore, getHealthStatus } from "./utils/health";
-import RepoHeader from "./components/repo";
-import Section from "./components/section";
-import ChartWrapper from "./components/chart";
-import Timeline from "./components/timeline";
+import Card from "./components/card.js";
+import { calculateHealthScore, getHealthStatus } from "./utils/health.js";
+import RepoHeader from "./components/repo.js";
+import Section from "./components/section.js";
+import ChartWrapper from "./components/chart.js";
+import Timeline from "./components/timeline.js";
 import "./App.css";
 
 import {
